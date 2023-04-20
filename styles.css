@@ -1,0 +1,71 @@
+body, nav, nav ul, nav ul li, nav ul li a {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+nav ul {
+    padding: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+nav {
+    box-shadow: 0px 0px 10px 0px rgba(0,12,245, 0.4);
+}
+nav ul li {
+    padding: 5px;
+    list-style: none;
+}
+nav ul li:hover {
+    border-radius: 5px;
+}
+nav ul li a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+.drop1 {
+    display: none;
+}
+nav ul li:hover .drop1 {
+    box-shadow: 0 0 10px 0 rgba(0,12,245, 0.4);
+    display: block;
+    position: absolute;
+    background: white;
+}
+.drop1 ul {
+    display: block;
+}
+.drop1 ul li {
+    border-bottom: 1px solid rgba(0,12,245, 0.4);
+}
+.drop1 ul li:last-of-type {
+    border-bottom: none;
+}
+.drop1 ul li:hover, nav ul li:hover {
+    background: rgb(240, 240, 240);
+}
+/* main section beginning */
+.container{
+    background: repeating-linear-gradient(-45deg, rgba(0,100,100 ,0.4) 0%,rgba(0,100,100 ,0.4) 3%, rgba(100,100,10,0.4) 3%, rgba(100,100,10,0.4)6%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* global elements */
+.grid {
+    height: 100vh;
+}
+.grid2 {
+    height: 50vh;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* global elements */
